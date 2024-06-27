@@ -465,7 +465,6 @@
   function enableScroll () {
     window.onscroll = function () {}
     rootElement.style.scrollBehavior = "smooth";
-    // localStorage.setItem('opened', 'true');
     playaudio ();
   }
   function playaudio () {
@@ -488,10 +487,6 @@
     }
       isPlaying = !isPlaying;
   }
-
-  // if(!localStorage.getItem('opened')) {
-  //   disableScroll();
-  // }
     disableScroll();
 </script>
 
